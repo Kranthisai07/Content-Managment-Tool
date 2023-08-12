@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(91,90,229,1) 15%, rgba(140,84,192,1) 41%, rgba(252,70,107,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: wavy;
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px #34495e; 
+    padding: 10px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(91,90,229,1) 15%, rgba(140,84,192,1) 41%, rgba(252,70,107,1) 100%);
+}
+
+.input-section {
+    margin-bottom: 20px;
+    width: 37cm;
+}
+
+.label-section {
+    text-decoration: wavy;
+    font-size: 0.5cm;
+    color: #000000;
+}
+
+.div-section {
+    height: 1cm;
+    border-radius: 8px;
+    margin: 0.5cm;
+}
+
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid white; 
+    border-radius: 6px; /
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    transition: border-color 0.3s, background-color 0.3s; 
+}
+
+.input-section input[type="text"]:focus,
+.input-section textarea:focus {
+    border-color: #34495e; 
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.input-section input[type="text"]::placeholder,
+.input-section textarea::placeholder {
+    color: white; /* Change the placeholder text color to white */
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white;
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.data-container {
+    max-height: 300px;
+    
+}
+
+.card {
+    border: 1px solid #7e2828ba;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+
+}
+
+.card-header {
+    background: linear-gradient(to right, rgba(63,94,251,1) 0%, rgba(91,90,229,1) 15%, rgba(140,84,192,1) 41%, rgba(252,70,107,1) 100%); /* Use the same gradient as the button */
+    padding: 10px;
+    border-radius: 6px;
+    color: white; /* Text color */
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
